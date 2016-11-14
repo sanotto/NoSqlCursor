@@ -1,0 +1,30 @@
+
+{
+    "name": "sanotto/nosqlcursor",
+    "description": "NoSQL like Record Access Wrapper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santiago Ottonello",
+            "email": "sanotto@gmail.com"
+        }
+    ],
+    "keywords": [
+        "mysql","handler socket","wrapper"
+    ],
+    "support": {
+        "source": "http://github.com/sanotto/nosqlcursor"
+    },
+    "autoload": {
+        "psr-4" : {
+            "NoSqlCursor\\" : "src/"
+        }
+    },
+   "require": {
+        "tz-lom/hsphp": "^1.21"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "3.7.14"
+    }
+}

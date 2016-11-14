@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true">
+	<testsuites>
+		<testsuite name="Application Test Suite">
+			<directory>./src/Test/</directory>
+		</testsuite>
+	</testsuites>
+	<php>
+		<var name="DB_HOST" value="localhost" />
+		<var name="DB_USER" value="root" />
+		<var name="DB_PASS" value="root" />
+		<var name="DB_NAME" value="cursor_test_db" />
+    	</php>
+</phpunit>
